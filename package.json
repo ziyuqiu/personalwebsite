@@ -5,7 +5,7 @@
   "main": "js/scripts.js",
   "scripts": {
     "watch": "gulp watch",
-    "start": "gulp watch"
+    "postinstall": "npm run watch"
   },
   "keywords": [
     "portfolio",
@@ -26,9 +26,9 @@
     "gulp-uglify": "^3.0.1",
     "gulp-wait": "0.0.2"
   },
-  "engines": {
-    "node": "10.15.0"
-  },
+  // "engines": {
+  //   "node": "10.15.0"
+  // },
   "repository": {
     "type": "git",
     "url": "https://github.com/ziyuqiu/personalwebsite"
