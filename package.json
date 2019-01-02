@@ -4,7 +4,8 @@
   "description": "",
   "main": "js/scripts.js",
   "scripts": {
-    "watch": "gulp watch"
+    "watch": "gulp watch",
+    "start": "gulp watch"
   },
   "keywords": [
     "portfolio",
@@ -16,7 +17,7 @@
   ],
   "author": "Ryan Fitzgerald",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-plumber": "^1.2.0",
@@ -26,6 +27,10 @@
     "gulp-wait": "0.0.2"
   },
   "engines": {
-    "node": "10.15"
+    "node": "10.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ziyuqiu/personalwebsite"
   }
 }
