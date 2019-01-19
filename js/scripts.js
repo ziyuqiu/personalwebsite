@@ -95,3 +95,22 @@
     });
 
 })(jQuery);
+
+$(document).ready(function () {
+    var h = $("#health-decoder").height();
+    $("#course-catalog").height(h);
+    $("#discover-deis").height(h);
+    var h2 = $("#robot").height();
+    $("#ml").height(h2);
+    $("#unix").height(h2);
+    $("#robot").height(h2);
+});
+$(window).resize(function () {
+    var h = $("#health-decoder").height();
+    $("#course-catalog").height(h);
+    $("#discover-deis").height(h);
+    var h2 = $("#robot").height();
+    $("#ml").height(h2);
+    $("#unix").height(h2);
+    $("#robot").height(h2);
+});

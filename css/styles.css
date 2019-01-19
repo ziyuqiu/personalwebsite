@@ -82,3 +82,12 @@ h6.project-lan{font-style: italic;text-align: left; font-size: 1rem; font-weight
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
+.card-title{
+  padding-bottom: 15px;
+}
+
+.project-description{
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
